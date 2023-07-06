@@ -12,6 +12,6 @@
     "gen": "gateway gen"
   },
   "dependencies": {
-    "gateway": "link:gateway"
+    "gateway": "redraskal/gateway"
   }
 }
