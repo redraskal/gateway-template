@@ -1,4 +1,4 @@
-# NAME_HERE
+# Gateway template
 
 ## To install dependencies:
 
