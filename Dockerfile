@@ -1,4 +1,4 @@
-FROM oven/bun
+FROM oven/bun:canary
 WORKDIR /app
 COPY package.json package.json
 COPY bun.lockb bun.lockb
