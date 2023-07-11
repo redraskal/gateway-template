@@ -9,7 +9,8 @@
   "scripts": {
     "start": "gateway",
     "dev": "gateway dev",
-    "gen": "gateway gen"
+    "gen": "gateway gen",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "gateway": "redraskal/gateway"
