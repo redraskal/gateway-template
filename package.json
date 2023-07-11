@@ -7,9 +7,9 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "start": "gateway",
-    "dev": "gateway dev",
-    "gen": "gateway gen",
+    "start": "bunx gateway",
+    "dev": "bunx gateway dev",
+    "gen": "bunx gateway gen",
     "prettier": "prettier --write ."
   },
   "dependencies": {
