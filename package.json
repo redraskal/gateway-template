@@ -17,11 +17,6 @@
     "prettier": "^3.0.0"
   },
   "bun-create": {
-    "postinstall": [
-      "echo '`bun run dev` to start a development server.'",
-      "echo '`bun start` to start a production server.'",
-      "echo '`bun gen {route_name}` to create a new route file in pages.'"
-    ],
     "start": "bun run dev"
   }
 }
