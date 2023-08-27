@@ -1,8 +1,8 @@
-import { Data, Route, html } from "gateway";
+import { Data, Route, html, formData } from "gateway";
 
 export default class implements Route {
 	async data(req: Request) {
-		const form = await Route.formData(req);
+		const form = await formData(req);
 		return {
 			time: new Date(Date.now()).toLocaleString(),
 			name: form?.get("name") || "world",
@@ -13,7 +13,6 @@ export default class implements Route {
 	head(data: Data<this>) {
 		return html`
 			<title>Hello ${data.name}!</title>
-			<link rel="stylesheet" href="/css/form.css" />
 		`;
 	}
 
