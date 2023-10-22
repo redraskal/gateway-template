@@ -17,6 +17,6 @@
 		"gateway": "redraskal/gateway#main"
 	},
 	"bun-create": {
-		"start": "bun run dev"
+		"start": "bun dev"
 	}
 }
