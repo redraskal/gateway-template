@@ -22,7 +22,7 @@ The new route will automatically open in Visual Studio Code.
 ## To run a development server:
 
 ```bash
-bun run dev
+bun dev
 ```
 
 ## To run a production server:
